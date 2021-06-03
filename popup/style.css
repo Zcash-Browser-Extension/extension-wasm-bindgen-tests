@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin:0 0 0 0;
+  width: 100%;
+}
+
+.app-header {
+  font-size: 2rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 200%;
+  font-style: normal;
+  font-weight: normal;  
+  align-items: center;
+  background: #f2f3f4;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    min-height: 4vh;
+    align-items: center;
+    justify-content: center;
+    margin:10px 10px 10px 10px;
+  }
+
+.content {
+    font-size: 0.75rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    color: #989a9b;
+}  
+
+.button {
+  font-size: 0.875rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 50%;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-secondary {
+  color: #037dd6;
+  border: 1px solid #b0d7f2;
+  background-color: #fff;
+}
+
+.btn--rounded {
+  border-radius: 100px;
+  will-change: box-shadow;
+  transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+}
+
+.icon-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: unset;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: pointer;
+  color: #037dd6;
+  border: none;
+}
+
+.eth-overview__button {
+  margin-right: 24px;
+}
+
+.icon-button__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  background: #037dd6;
+  border-radius: 18px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.selected-account__name {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.eth-overview__primary-balance {
+  font-size: 1.5rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(100, 100, 100);
+  justify-content: center;
+}
+
+.send__to-row {
+  margin: 0;
+  padding: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.divider {
+  border-bottom: 1px solid #dedede;
+}
+
+.ens-input__wrapper {
+  flex: 1 1 auto;
+  width: 95%;
+  align-items: center;
+  justify-content: center;  
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  border: 1px solid #d6d9dc;
+  transition: border-color 150ms ease-in-out;
+}
+
+.ens-input__wrapper__input {
+  font-size: 0.875rem;
+  font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: normal;
+  flex: 1 1 auto;
+  width: 95%;
+  border: 0;
+  outline: none;
+}
